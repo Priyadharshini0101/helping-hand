@@ -1,0 +1,111 @@
+.container img{
+  width:50px;
+height:50px;
+margin:10px;
+border-top-left-radius: 50% 50%;
+border-top-right-radius: 50% 50%;
+border-bottom-right-radius: 50% 50%;
+border-bottom-left-radius: 50% 50%;
+}
+.login-text{
+  font-family:'Lobster',cursive;
+  text-align:center;
+  font-size:24px;
+  font-style: bold;
+  padding: 20px;
+}
+.social-menu ul{
+  position:absolute;
+  left:50%;
+  padding:0;
+  margin:0;
+  transform:translate(-50%,-50%);
+  display:flex;
+}
+.social-menu ul li{
+  list-style:none;
+  margin:0 15px;
+}
+.social-menu ul li .fa{
+  font-size:30px;
+  line-height:60px;
+  transition:0.6s;
+  color:#000;
+}
+/*.social-menu ul li .fa:hover{
+  background-color: #fff;
+}*/
+.social-menu ul li a{
+  position:relative;
+  display:block;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+.social-menu ul li a:hover{
+  transform:translate(0,-10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover{
+  background-color:#DD2A7B;
+}
+.social-menu ul li:nth-child(3) a:hover{
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(4) a:hover{
+  background-color:  #ea4335;
+}
+.constrain{
+  max-width:960px;
+  margin: 0 auto;
+  }
+.cookies-banner{
+  background-color:#198754;
+  color:#000000;
+  padding:20px 10px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  transform:translateY(100%);
+  transition:transform 0.3s;
+}
+.cookies-banner.show{
+  transform: translateY(0%);
+}
+.cookies-banner .constrain{
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px;
+}
+.cookies-banner h1{
+  margin-top:0;
+}
+.cookies-bannner p{
+  margin:0;
+}
+.button{
+  text-decoration:none;
+  padding:6px 16px;
+  margin:50px;
+  border-radius:20px;
+  transition:background-color 0.3s;
+  }
+.button-n{
+      background-color: #ffffff;
+      color:black;
+  }
+.button-n:hover{
+      background-color:#ccc;
+      }
+.text p{
+  text-align:center;
+  padding:50px;
+}
+
+  
