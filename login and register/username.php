@@ -5,7 +5,7 @@ session_start();
 error_reporting(0);
 
 if(isset($_SESSION['project'])){
-    header('Location:welcome.php');
+    header('Location:project.html');
 }
 if(isset($_POST['submit'])){
     $email=$_POST['email'];
@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
     if($result->num_rows>0){
         $row=mysqli_fetch_assoc($result);
         $_SESSION['project']=$row['project'];
-        header("Location:welcome.php");
+        header("Location:project.html");
     }
     else
     {
