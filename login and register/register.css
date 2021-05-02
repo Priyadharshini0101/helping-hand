@@ -1,0 +1,94 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image:url('donation.jfif');
+    background-repeat:no-repeat;
+    background-size:1600px 900px;
+
+}
+    .container{
+        background:white;
+        position:absolute;
+        width:400px;
+        height:600px;
+        top:50%;
+        left:50%;
+        text-align:center;
+        transform:translate(-50%,-50%);
+        }
+        .login-text{
+            font-family:'Lobster',cursive;
+            text-align:center;
+            font-size:24px;
+            font-style: bold;
+            padding:15px;
+         }
+
+.container .box{
+    width:400px;
+    height:500px;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    
+}
+.box input[type="email"], .box input[type="text"],.box input[type="password"],.box input[type="confirm password"]{
+    border:0;
+    background: none;
+    display:block;
+    margin: 30px auto;
+    text-align:center;
+    border:2px solid #666666;
+    padding:15px 12px;
+    width:250px;
+    outline:none;
+    color:#666666;
+    border-radius:30px;
+    transition:0.50 s;
+}
+.box p{
+    font-family:'Lobster',cursive;
+    text-align:center;
+    font-size:18px;
+}
+
+.box input[type="email"]:focus,.box input[type="username"],.box input[type="password"],.box input[type="confirm-password"]{
+    width:250px;
+    border-color:#666666;
+}
+.button{
+text-decoration:none;
+padding:7px 20px;
+border-radius:20px;
+transition:background-color 0.3s;
+background-color:#a29bfe;
+color:white;
+}
+.button:hover {
+        transform: translateY(-5px);
+        background: #6c5ce7;
+    }
+.login-register-text {
+        color:#000;
+        font-family:'Lobster',cursive; ;
+        text-align:center;
+        font-size:18px;
+}
+.login-register-text a{
+    text-decoration:none;
+    color:#6c5ce7;
+}
+    @media (max-width: 300px) {
+        .container {
+            width: 300px;
+        }
+        .container .social-menu {
+            display: block;
+        }
+        .container .social-menu a {
+            display: block;
+        }
+    }
